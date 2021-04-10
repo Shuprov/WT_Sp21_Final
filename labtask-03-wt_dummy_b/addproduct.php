@@ -1,4 +1,6 @@
-<?php include 'admin_header.php';?>
+<?php include 'admin_header.php';
+require_once "controllers/product-controller.php";
+?>
 <!--addproduct starts -->
 <div class="center">
 	<form class="form-horizontal form-material">
@@ -30,7 +32,7 @@
 		</div>
 		<div class="form-group text-center">
 			
-			<input type="submit" class="btn btn-success" value="Add Product" class="form-control">
+			<input type="submit" class="btn btn-success" name="add_product" value="Add Product" class="form-control">
 		</div>
 	</form>
 </div>

@@ -2,7 +2,7 @@
 $db_server="localhost";
 $db_uname="root";
 $db_pass="";
-$db_name="wt_sp21_final";
+$db_name="mvc_lab3";
 function execute($query) //execute insert,update,delete
 {
 	global $db_server,$db_uname,$db_pass,$db_name;
